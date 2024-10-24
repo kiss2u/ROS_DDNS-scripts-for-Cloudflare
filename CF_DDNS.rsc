@@ -51,7 +51,7 @@
     # Set the ServerChan notification URL
     :local scurl "https://sctapi.ftqq.com/$sckey.send"
     # Set the body for the ServerChan notification
-    :local scbody "title=$sctitle&desp=The DDNS record has been updated with the new IPv6 address: $currentIP."
+    :local scbody "title=$sctitle&desp='The DDNS record has been updated with the new IPv6 address: $currentIP.'"
     
     # Send the notification to ServerChan
     :log info "Sending message to ServerChan..."
